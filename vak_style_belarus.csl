@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
   <info>
-    <title>VAK style (Belarus)</title>
-    <id>https://raw.githubusercontent.com/alexpobol/vak_belarus/master/vak_style_belarus.csl</id>
-    <link href="http://vak.of.by/" rel="self"/>
+    <title>VAK style (Belarus)-author</title>
+    <id></id>
+    <link href="https://github.com/alexpobol/vak_belarus/edit/master/vak_style_belarus.csl" rel="self"/>
     <author>
       <name>Никита Осенний</name>
       <uri>http://vak.of.by/info.php</uri>
@@ -192,7 +192,7 @@
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-     <!-- <name et-al-min="2" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="first" sort-separator=",&#160;"/> -->
+      <!--<name et-al-min="2" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" name-as-sort-order="first" sort-separator=",&#160;"/> -->
       <!--<et-al term="and others"/> -->
     </names>
     <text variable="title"/>
