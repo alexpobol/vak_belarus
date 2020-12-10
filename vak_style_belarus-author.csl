@@ -260,7 +260,7 @@
 <!-- ВСПОМОГАТЕЛЬНЫЕ МАКРОСЫ -->
 
   <macro name="citation-number">
-    <text variable="citation-number" suffix=".&#9;"/>
+    <text variable="citation-number" suffix="—А.&#9;"/>
   </macro>
 
   <macro name="publisher">
@@ -370,7 +370,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout prefix="[" suffix="]" delimiter=", " page-range-format="">
+    <layout prefix="[" suffix="—А]" delimiter=", " page-range-format="">
       <text variable="citation-number"/>
       <choose>
         <if variable="locator">
